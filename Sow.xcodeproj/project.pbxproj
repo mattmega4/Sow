@@ -19,6 +19,9 @@
 		1DE3EF562267225F00DEDFEA /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3EF552267225F00DEDFEA /* Direction.swift */; };
 		1DE3EF572267225F00DEDFEA /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3EF552267225F00DEDFEA /* Direction.swift */; };
 		1DE3EF582267225F00DEDFEA /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3EF552267225F00DEDFEA /* Direction.swift */; };
+		1DE3EF5B2267241B00DEDFEA /* LandingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3EF5A2267241B00DEDFEA /* LandingVC.swift */; };
+		1DE3EF5C2267241B00DEDFEA /* LandingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3EF5A2267241B00DEDFEA /* LandingVC.swift */; };
+		1DE3EF5D2267241B00DEDFEA /* LandingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3EF5A2267241B00DEDFEA /* LandingVC.swift */; };
 		292DC969226707D20094D134 /* PlantBed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DC968226707D20094D134 /* PlantBed.swift */; };
 		292DC96A226707D20094D134 /* PlantBed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DC968226707D20094D134 /* PlantBed.swift */; };
 		292DC96B226707D20094D134 /* PlantBed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DC968226707D20094D134 /* PlantBed.swift */; };
@@ -70,6 +73,7 @@
 		1DE3EF4D2267206400DEDFEA /* Friendlies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friendlies.swift; sourceTree = "<group>"; };
 		1DE3EF51226720C500DEDFEA /* Diseases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diseases.swift; sourceTree = "<group>"; };
 		1DE3EF552267225F00DEDFEA /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		1DE3EF5A2267241B00DEDFEA /* LandingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingVC.swift; sourceTree = "<group>"; };
 		292DC968226707D20094D134 /* PlantBed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantBed.swift; sourceTree = "<group>"; };
 		292DC96C226709930094D134 /* Plants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plants.swift; sourceTree = "<group>"; };
 		292DC97422670A200094D134 /* Sunglight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunglight.swift; sourceTree = "<group>"; };
@@ -127,6 +131,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DE3EF592267240200DEDFEA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1DE3EF5A2267241B00DEDFEA /* LandingVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		29D2C1D52266FB55009ED48E = {
 			isa = PBXGroup;
 			children = (
@@ -154,7 +166,7 @@
 			children = (
 				29D2C2132266FCC4009ED48E /* Model */,
 				29D2C2122266FCC1009ED48E /* View */,
-				29D2C2112266FCBF009ED48E /* Controller */,
+				1DE3EF592267240200DEDFEA /* Controller */,
 				29D2C2102266FCBD009ED48E /* Extensions */,
 				29D2C2142266FCD6009ED48E /* Constants */,
 				29D2C20F2266FCBB009ED48E /* SupportingFiles */,
@@ -197,13 +209,6 @@
 			children = (
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		29D2C2112266FCBF009ED48E /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		29D2C2122266FCC1009ED48E /* View */ = {
@@ -494,6 +499,7 @@
 				1DE3EF4A22671FC500DEDFEA /* Pests.swift in Sources */,
 				292DC97522670A200094D134 /* Sunglight.swift in Sources */,
 				292DC96D226709930094D134 /* Plants.swift in Sources */,
+				1DE3EF5B2267241B00DEDFEA /* LandingVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +517,7 @@
 				1DE3EF4B22671FC500DEDFEA /* Pests.swift in Sources */,
 				292DC97622670A200094D134 /* Sunglight.swift in Sources */,
 				292DC96E226709930094D134 /* Plants.swift in Sources */,
+				1DE3EF5C2267241B00DEDFEA /* LandingVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +535,7 @@
 				1DE3EF4C22671FC500DEDFEA /* Pests.swift in Sources */,
 				292DC97722670A200094D134 /* Sunglight.swift in Sources */,
 				292DC96F226709930094D134 /* Plants.swift in Sources */,
+				1DE3EF5D2267241B00DEDFEA /* LandingVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -688,6 +696,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = K8YZSQZRNW;
 				INFOPLIST_FILE = "$(SRCROOT)/Sow/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
