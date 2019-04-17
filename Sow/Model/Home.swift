@@ -9,20 +9,20 @@
 import UIKit
 
 class Home: NSObject {
-
+  
   var beds: [PlantBed]?
   var minTemp: Int?
   var avgTemp: Int?
   var maxTemp: Int?
   var zone: Int?
-
+  
   init(beds: [PlantBed], minTemp: Int, avgTemp: Int, maxTemp: Int, zone: Int) {
-
+    
     self.beds = beds
     self.minTemp = minTemp
     self.avgTemp = avgTemp
     self.maxTemp = maxTemp
     self.zone = zone
   }
-
+  
 }

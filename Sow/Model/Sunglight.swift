@@ -9,18 +9,18 @@
 import UIKit
 
 class Sunlight: NSObject {
-
+  
   var fullshade: Bool?
   var partShade: Bool?
   var partSun: Bool?
   var fullSun: Bool?
-
+  
   init(fullShade: Bool, partShade: Bool, partSun: Bool, fullSun: Bool) {
-
+    
     self.fullshade = fullShade
     self.partShade = partShade
     self.partSun = partSun
     self.fullSun = fullSun
   }
-
+  
 }

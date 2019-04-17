@@ -9,11 +9,11 @@
 import UIKit
 
 class Plants: NSObject {
-
+  
   var plantName: String?
   var color: [UIColor]?
   var sunlightRequirements: Sunlight?
-  var waterRequirements: Any? // new type?
+  var droughResistant: Bool?
   var minTemp: Int?
   var avgTemp: Int?
   var maxTemp: Int?
@@ -29,10 +29,10 @@ class Plants: NSObject {
   var attractsBumbleBees: Bool?
   var attractsHummingBirds: Bool?
   var attractsButterflies: Bool?
-
+  
   init(plantName: String) {
-
+    
     self.plantName = plantName
   }
-
+  
 }

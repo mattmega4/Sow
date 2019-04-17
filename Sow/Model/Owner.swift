@@ -9,14 +9,14 @@
 import UIKit
 
 class Owner: NSObject {
-
+  
   var allergies: String?
-
-
+  
+  
   init(allergies: String) {
-
+    
     self.allergies = allergies
-
+    
   }
-
+  
 }
