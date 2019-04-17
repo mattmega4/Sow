@@ -25,6 +25,7 @@ class Plants: NSObject {
   var requiredSpace: Int?
   var rootDepth: Int?
   var edible: Bool?
+  var petSafe: Bool?
   var colorful: Bool?
 
   
