@@ -11,6 +11,7 @@ import UIKit
 class Plants: NSObject {
   
   var plantName: String?
+  var isIndoor: Bool?
   var color: [UIColor]?
   var sunlightRequirements: Sunlight?
   var droughResistant: Bool?
@@ -25,10 +26,7 @@ class Plants: NSObject {
   var rootDepth: Int?
   var edible: Bool?
   var colorful: Bool?
-  var attractsBees: Bool?
-  var attractsBumbleBees: Bool?
-  var attractsHummingBirds: Bool?
-  var attractsButterflies: Bool?
+
   
   init(plantName: String) {
     

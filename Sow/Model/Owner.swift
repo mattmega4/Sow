@@ -10,10 +10,10 @@ import UIKit
 
 class Owner: NSObject {
   
-  var allergies: String?
+  var allergies: [String]?
   
   
-  init(allergies: String) {
+  init(allergies: [String]) {
     
     self.allergies = allergies
     

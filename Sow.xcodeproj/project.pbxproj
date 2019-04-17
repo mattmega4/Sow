@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DE3EF4A22671FC500DEDFEA /* Pests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3EF4922671FC500DEDFEA /* Pests.swift */; };
+		1DE3EF4B22671FC500DEDFEA /* Pests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3EF4922671FC500DEDFEA /* Pests.swift */; };
+		1DE3EF4C22671FC500DEDFEA /* Pests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3EF4922671FC500DEDFEA /* Pests.swift */; };
+		1DE3EF4E2267206400DEDFEA /* Friendlies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3EF4D2267206400DEDFEA /* Friendlies.swift */; };
+		1DE3EF4F2267206400DEDFEA /* Friendlies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3EF4D2267206400DEDFEA /* Friendlies.swift */; };
+		1DE3EF502267206400DEDFEA /* Friendlies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3EF4D2267206400DEDFEA /* Friendlies.swift */; };
+		1DE3EF52226720C500DEDFEA /* Diseases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3EF51226720C500DEDFEA /* Diseases.swift */; };
+		1DE3EF53226720C500DEDFEA /* Diseases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3EF51226720C500DEDFEA /* Diseases.swift */; };
+		1DE3EF54226720C500DEDFEA /* Diseases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3EF51226720C500DEDFEA /* Diseases.swift */; };
+		1DE3EF562267225F00DEDFEA /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3EF552267225F00DEDFEA /* Direction.swift */; };
+		1DE3EF572267225F00DEDFEA /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3EF552267225F00DEDFEA /* Direction.swift */; };
+		1DE3EF582267225F00DEDFEA /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3EF552267225F00DEDFEA /* Direction.swift */; };
 		292DC969226707D20094D134 /* PlantBed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DC968226707D20094D134 /* PlantBed.swift */; };
 		292DC96A226707D20094D134 /* PlantBed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DC968226707D20094D134 /* PlantBed.swift */; };
 		292DC96B226707D20094D134 /* PlantBed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DC968226707D20094D134 /* PlantBed.swift */; };
@@ -54,6 +66,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DE3EF4922671FC500DEDFEA /* Pests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pests.swift; sourceTree = "<group>"; };
+		1DE3EF4D2267206400DEDFEA /* Friendlies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friendlies.swift; sourceTree = "<group>"; };
+		1DE3EF51226720C500DEDFEA /* Diseases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diseases.swift; sourceTree = "<group>"; };
+		1DE3EF552267225F00DEDFEA /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 		292DC968226707D20094D134 /* PlantBed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantBed.swift; sourceTree = "<group>"; };
 		292DC96C226709930094D134 /* Plants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plants.swift; sourceTree = "<group>"; };
 		292DC97422670A200094D134 /* Sunglight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunglight.swift; sourceTree = "<group>"; };
@@ -206,6 +222,10 @@
 				292DC97422670A200094D134 /* Sunglight.swift */,
 				292DC97822670F2E0094D134 /* Home.swift */,
 				292DC97C2267102D0094D134 /* Owner.swift */,
+				1DE3EF4922671FC500DEDFEA /* Pests.swift */,
+				1DE3EF4D2267206400DEDFEA /* Friendlies.swift */,
+				1DE3EF51226720C500DEDFEA /* Diseases.swift */,
+				1DE3EF552267225F00DEDFEA /* Direction.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -464,10 +484,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE3EF52226720C500DEDFEA /* Diseases.swift in Sources */,
 				29D2C1E22266FB55009ED48E /* AppDelegate.swift in Sources */,
 				292DC97D2267102D0094D134 /* Owner.swift in Sources */,
+				1DE3EF562267225F00DEDFEA /* Direction.swift in Sources */,
 				292DC969226707D20094D134 /* PlantBed.swift in Sources */,
 				292DC97922670F2E0094D134 /* Home.swift in Sources */,
+				1DE3EF4E2267206400DEDFEA /* Friendlies.swift in Sources */,
+				1DE3EF4A22671FC500DEDFEA /* Pests.swift in Sources */,
 				292DC97522670A200094D134 /* Sunglight.swift in Sources */,
 				292DC96D226709930094D134 /* Plants.swift in Sources */,
 			);
@@ -477,10 +501,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE3EF53226720C500DEDFEA /* Diseases.swift in Sources */,
 				29D2C1F72266FB57009ED48E /* SowTests.swift in Sources */,
 				292DC97E2267102D0094D134 /* Owner.swift in Sources */,
+				1DE3EF572267225F00DEDFEA /* Direction.swift in Sources */,
 				292DC96A226707D20094D134 /* PlantBed.swift in Sources */,
 				292DC97A22670F2E0094D134 /* Home.swift in Sources */,
+				1DE3EF4F2267206400DEDFEA /* Friendlies.swift in Sources */,
+				1DE3EF4B22671FC500DEDFEA /* Pests.swift in Sources */,
 				292DC97622670A200094D134 /* Sunglight.swift in Sources */,
 				292DC96E226709930094D134 /* Plants.swift in Sources */,
 			);
@@ -490,10 +518,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE3EF54226720C500DEDFEA /* Diseases.swift in Sources */,
 				29D2C2022266FB57009ED48E /* SowUITests.swift in Sources */,
 				292DC97F2267102D0094D134 /* Owner.swift in Sources */,
+				1DE3EF582267225F00DEDFEA /* Direction.swift in Sources */,
 				292DC96B226707D20094D134 /* PlantBed.swift in Sources */,
 				292DC97B22670F2E0094D134 /* Home.swift in Sources */,
+				1DE3EF502267206400DEDFEA /* Friendlies.swift in Sources */,
+				1DE3EF4C22671FC500DEDFEA /* Pests.swift in Sources */,
 				292DC97722670A200094D134 /* Sunglight.swift in Sources */,
 				292DC96F226709930094D134 /* Plants.swift in Sources */,
 			);
