@@ -16,6 +16,7 @@ class PlantBed: NSObject {
   var widthDimension: Double?
   var light: Sunlight?
 
+
   init(generalArea: String, plants: [Plants], lengthDimension: Double, widthDimension: Double, light: Sunlight) {
 
     self.generalArea = generalArea

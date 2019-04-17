@@ -16,6 +16,12 @@
 		292DC97522670A200094D134 /* Sunglight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DC97422670A200094D134 /* Sunglight.swift */; };
 		292DC97622670A200094D134 /* Sunglight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DC97422670A200094D134 /* Sunglight.swift */; };
 		292DC97722670A200094D134 /* Sunglight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DC97422670A200094D134 /* Sunglight.swift */; };
+		292DC97922670F2E0094D134 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DC97822670F2E0094D134 /* Home.swift */; };
+		292DC97A22670F2E0094D134 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DC97822670F2E0094D134 /* Home.swift */; };
+		292DC97B22670F2E0094D134 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DC97822670F2E0094D134 /* Home.swift */; };
+		292DC97D2267102D0094D134 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DC97C2267102D0094D134 /* Owner.swift */; };
+		292DC97E2267102D0094D134 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DC97C2267102D0094D134 /* Owner.swift */; };
+		292DC97F2267102D0094D134 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DC97C2267102D0094D134 /* Owner.swift */; };
 		29D2C1E22266FB55009ED48E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2C1E12266FB55009ED48E /* AppDelegate.swift */; };
 		29D2C1E72266FB55009ED48E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D2C1E52266FB55009ED48E /* Main.storyboard */; };
 		29D2C1E92266FB57009ED48E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D2C1E82266FB57009ED48E /* Assets.xcassets */; };
@@ -51,6 +57,8 @@
 		292DC968226707D20094D134 /* PlantBed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantBed.swift; sourceTree = "<group>"; };
 		292DC96C226709930094D134 /* Plants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plants.swift; sourceTree = "<group>"; };
 		292DC97422670A200094D134 /* Sunglight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunglight.swift; sourceTree = "<group>"; };
+		292DC97822670F2E0094D134 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		292DC97C2267102D0094D134 /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
 		29D2C1DE2266FB55009ED48E /* Sow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D2C1E12266FB55009ED48E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29D2C1E62266FB55009ED48E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -196,6 +204,8 @@
 				292DC968226707D20094D134 /* PlantBed.swift */,
 				292DC96C226709930094D134 /* Plants.swift */,
 				292DC97422670A200094D134 /* Sunglight.swift */,
+				292DC97822670F2E0094D134 /* Home.swift */,
+				292DC97C2267102D0094D134 /* Owner.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -455,7 +465,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				29D2C1E22266FB55009ED48E /* AppDelegate.swift in Sources */,
+				292DC97D2267102D0094D134 /* Owner.swift in Sources */,
 				292DC969226707D20094D134 /* PlantBed.swift in Sources */,
+				292DC97922670F2E0094D134 /* Home.swift in Sources */,
 				292DC97522670A200094D134 /* Sunglight.swift in Sources */,
 				292DC96D226709930094D134 /* Plants.swift in Sources */,
 			);
@@ -466,7 +478,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				29D2C1F72266FB57009ED48E /* SowTests.swift in Sources */,
+				292DC97E2267102D0094D134 /* Owner.swift in Sources */,
 				292DC96A226707D20094D134 /* PlantBed.swift in Sources */,
+				292DC97A22670F2E0094D134 /* Home.swift in Sources */,
 				292DC97622670A200094D134 /* Sunglight.swift in Sources */,
 				292DC96E226709930094D134 /* Plants.swift in Sources */,
 			);
@@ -477,7 +491,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				29D2C2022266FB57009ED48E /* SowUITests.swift in Sources */,
+				292DC97F2267102D0094D134 /* Owner.swift in Sources */,
 				292DC96B226707D20094D134 /* PlantBed.swift in Sources */,
+				292DC97B22670F2E0094D134 /* Home.swift in Sources */,
 				292DC97722670A200094D134 /* Sunglight.swift in Sources */,
 				292DC96F226709930094D134 /* Plants.swift in Sources */,
 			);
