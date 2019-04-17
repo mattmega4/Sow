@@ -1,0 +1,6 @@
+framework module Pods_Sow {
+  umbrella header "Pods-Sow-umbrella.h"
+
+  export *
+  module * { export * }
+}
